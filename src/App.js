@@ -2,6 +2,8 @@ import './App.css';
 import Container from 'react-bootstrap/Container';
 import Navbarx from './components/Navbar';
 import Hero from './components/Hero';
+import Hero2 from './components/Hero2';
+import Hero3 from './components/Hero3';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
         <div className=''>
           <Navbarx/>
           <Hero/>
+          <Hero2/>
+          <Hero3/>
         </div>
       </Container>
     </>

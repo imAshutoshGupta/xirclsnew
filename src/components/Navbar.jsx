@@ -23,29 +23,29 @@ const Navbarx = () => {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto fs-5 px-5">
                                 <NavDropdown title={<span className="dropdown-title">Products</span>} id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.1">Product 1</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#action/3.2">
-                                        Another action
+                                        Product 2
                                     </NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.3">Product 3</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#action/3.4">
-                                        Separated link
+                                        Product 4
                                     </NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown title={<span className="dropdown-title">Company</span>} id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.1">Company 1</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#action/3.2">
-                                        Another action
+                                        Company 2
                                     </NavDropdown.Item>
                                     <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                                    <NavDropdown.Item href="#action/3.3">Company 3</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#action/3.4">
-                                        Separated link
+                                        Company 4
                                     </NavDropdown.Item>
                                 </NavDropdown>
                                 <Nav.Link href="#features" style={{ color: '#00a895' }}>Blog</Nav.Link>
@@ -53,7 +53,7 @@ const Navbarx = () => {
                             </Nav>
                             <Nav>
                                 <Button className="mx-3 px-3" size="sm" variant="outline-success">Log in</Button>
-                                <Button className="mx-3 px-3" size="sm" variant="outline-success" style={{backgroundColor: '#00c7b0', color: 'white', border: '2px solid #00c7b0'}} >Sign Up</Button>
+                                <Button className="mx-3 px-3" size="sm" variant="outline-success" style={{ backgroundColor: '#00c7b0', color: 'white', border: '2px solid #00c7b0' }} >Sign Up</Button>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
