@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Navbarx from './components/Navbar';
 import Hero from './components/Hero';
 import Hero2 from './components/Hero2';
-import Hero3 from './components/Hero3';
+import Mainpage from './components/Mainpage';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
           <Navbarx/>
           <Hero/>
           <Hero2/>
-          <Hero3/>
+          <Mainpage/>
         </div>
       </Container>
     </>
