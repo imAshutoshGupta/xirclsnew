@@ -4,6 +4,7 @@ import Navbarx from './components/Navbar';
 import Hero from './components/Hero';
 import Hero2 from './components/Hero2';
 import Mainpage from './components/Mainpage';
+import Colourpage from './components/Colourpage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Hero/>
           <Hero2/>
           <Mainpage/>
+          <Colourpage/>
         </div>
       </Container>
     </>

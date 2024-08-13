@@ -52,8 +52,8 @@ const Navbarx = () => {
                                 <Nav.Link href="#pricing" style={{ color: '#00a895' }}>Partners</Nav.Link>
                             </Nav>
                             <Nav>
-                                <Button className="mx-3 px-3" size="sm" variant="outline-success">Log in</Button>
-                                <Button className="mx-3 px-3" size="sm" variant="outline-success" style={{ backgroundColor: '#00c7b0', color: 'white', border: '2px solid #00c7b0' }} >Sign Up</Button>
+                                <Button className="mx-3 px-3 mb-2" size="sm" variant="outline-success">Log in</Button>
+                                <Button className="mx-3 px-3 mb-2" size="sm" variant="outline-success" style={{ backgroundColor: '#00c7b0', color: 'white', border: '2px solid #00c7b0' }} >Sign Up</Button>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
