@@ -5,3 +5,29 @@
   background-color: #00a895; 
   padding: 20px;
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+}
+
+.footer a {
+  color: black;
+}
+
+.footer a:hover {
+  color: black;
+}
+
+
+
+.navlight{
+  color: dimgray;
+}
+.pin-bottom-row {
+  margin-top: auto;
+}

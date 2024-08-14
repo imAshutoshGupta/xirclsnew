@@ -5,9 +5,10 @@ import Hero from './components/Hero';
 import Hero2 from './components/Hero2';
 import Mainpage from './components/Mainpage';
 import Colourpage from './components/Colourpage';
-import Carousel from './components/Carousel';
+import ResponsiveCarousel from './components/Carousel';
 import Product from './components/Product';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
           <Hero2/>
           <Mainpage/>
           <Colourpage/>
-          <Carousel/>
+          <ResponsiveCarousel/>
           <Product/>
           <Contact/>
+          <Footer/>
         </div>
       </Container>
     </>
