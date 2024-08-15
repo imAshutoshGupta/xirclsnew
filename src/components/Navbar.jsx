@@ -22,7 +22,7 @@ const Navbarx = () => {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto fs-5 px-5">
-                                <NavDropdown title={<span className="dropdown-title">Products</span>} id="basic-nav-dropdown">
+                                <NavDropdown title={<span className="dropdown-title">Products</span>} id="basic-nav-dropdown" >
                                     <NavDropdown.Item href="#action/3.1">Product 1</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#action/3.2">

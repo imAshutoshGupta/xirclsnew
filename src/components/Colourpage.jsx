@@ -45,7 +45,7 @@ const Colourpage = () => {
                     <Row className='d-flex'>
                     {data.map(item => (<Col md={4} className='p-5'>
                             <div className='d-flex'>
-                                <Col className='m-auto'><Image className="img-fluid" width={65} height={70} src={item.image} rounded /></Col>
+                                <Col className='m-auto'><Image className="img-fluid" width={60} height={65} src={item.image} rounded /></Col>
                                 <Col xs={9}>
                                     <Row className='m-1 fs-4'>{item.title}</Row>
                                     <Row className='m-1'>{item.description}

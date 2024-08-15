@@ -1,6 +1,10 @@
 .dropdown-title {
   color: #00a895; 
 }
+.navbar-nav .dropdown-toggle::after {
+  display: none;
+}
+
 .custom-bg {
   background-color: #00a895; 
   padding: 20px;

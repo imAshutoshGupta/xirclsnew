@@ -5,7 +5,7 @@ const Hero2 = () => {
     return (
         <Container>
             <div className='hero2-section justify-content-center align-content-center p-5'>
-                <div className='text-center mt-5 mb-5'>
+                <div className='text-center mt-5 mb-5 p-5'>
                     <div><p className='display-3' style={{ color: '#00a895' }}>Trust is Everything.</p></div>
                     <div className='fs-5 mx-auto text-center' style={{ width: '50%' }}><p>We prioritize digital interactions built on trust, transparency, and
                         100% consent of your valued customers.</p></div>
