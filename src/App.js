@@ -5,10 +5,13 @@ import Hero from './components/Hero';
 import Hero2 from './components/Hero2';
 import Mainpage from './components/Mainpage';
 import Colourpage from './components/Colourpage';
-import ResponsiveCarousel from './components/Carousel';
+import CarouselComponent from './components/Carousel';
 import Product from './components/Product';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -20,7 +23,7 @@ function App() {
           <Hero2/>
           <Mainpage/>
           <Colourpage/>
-          <ResponsiveCarousel/>
+          <CarouselComponent/>
           <Product/>
           <Contact/>
           <Footer/>

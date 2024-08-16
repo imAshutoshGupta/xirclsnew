@@ -1,0 +1,46 @@
+/* CarouselComponent.css */
+.carousel-container {
+  width: 1200px;
+  margin: 0;
+  padding: 10px;
+  height: auto;
+}
+
+.card {
+  position: relative;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 0px;
+}
+
+.card-image {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.card-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+.card-image-container {
+  position: absolute;
+  top: -20%; 
+  left: 55%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: auto;
+  overflow: visible; 
+}
+.slick-slide {
+  margin: 0 10px;
+  height: 300px;
+  display: flex;
+  align-items: center; 
+}
+
