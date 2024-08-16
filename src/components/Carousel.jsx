@@ -37,13 +37,28 @@ const ResponsiveCarousel = () => (
                 </Card>
               </Col>
               <Col className='col-4'>
-                <h1>hello</h1>
+                <Card className="review-card">
+                  <div className="image-container">
+                    <img src={item.src} alt={beyours} width={100} height={100} className="profile-image" />
+                  </div>
+                  <Card.Body>
+                    <Card.Text>{item.caption}</Card.Text>
+                    <Card.Title>{item.name}</Card.Title>
+                  </Card.Body>
+                </Card>
               </Col>
               <Col className='col-4'>
-                <h1>hello</h1>
+                <Card className="review-card">
+                  <div className="image-container">
+                    <img src={item.src} alt={beyours} width={100} height={100} className="profile-image" />
+                  </div>
+                  <Card.Body>
+                    <Card.Text>{item.caption}</Card.Text>
+                    <Card.Title>{item.name}</Card.Title>
+                  </Card.Body>
+                </Card>
               </Col>
             </Row>
-
           </Carousel.Item>
         ))}
       </Carousel>
