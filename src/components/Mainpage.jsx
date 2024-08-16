@@ -29,7 +29,7 @@ const Mainpage = () => {
                                 personalized buying experiences.</p></Row>
                         </Col>
                         <Col md={6} className='d-flex justify-content-center mt-5'>
-                            <Image className="img-fluid" width={650} height={500} src={main1} rounded />
+                            <Image className="img-fluid" width={650} height={500} src={main1} style={{ borderRadius: '20px' }} />
                         </Col>
                     </Row>
                 </div>
@@ -39,7 +39,7 @@ const Mainpage = () => {
                 <div className='main-section justify-content-center align-content-center'>
                     <Row className="align-items-center p-5 m-2">
                         <Col md={6} className='d-flex justify-content-center mt-5'>
-                            <Image className="img-fluid" width={650} height={500} src={main2} rounded />
+                            <Image className="img-fluid" width={650} height={500} src={main2} style={{ borderRadius: '20px' }} />
                         </Col>
                         <Col md={6} className='text-end text-md-end mx-auto mt-5'>
                             <Row className='text-end text-md-end m-auto mb-2 fs-4' style={{ color: '#00a895' }}>
@@ -94,7 +94,7 @@ const Mainpage = () => {
                     </Col>
                     <Col md={6} className='d-flex justify-content-center mt-5'>
 
-                        <Image className="img-fluid" width={650} height={500} src={main3} rounded />
+                        <Image className="img-fluid" width={650} height={500} src={main3} style={{ borderRadius: '20px' }} />
 
                     </Col>
                 </Row>
@@ -105,7 +105,7 @@ const Mainpage = () => {
                 <div className='main-section justify-content-center align-content-center py-4 my-5'>
                     <Row className="align-items-center">
                         <Col md={6} className='d-flex justify-content-center'>
-                            <Image className="img-fluid" width={650} height={500} src={main4} rounded />
+                            <Image className="img-fluid" width={650} height={500} src={main4} style={{ borderRadius: '20px' }} />
                         </Col>
                         <Col md={6} className='text-end text-md-end mx-auto'>
                             <Row className='text-end text-md-end m-auto fs-4' style={{ color: '#00a895' }}>
@@ -184,7 +184,7 @@ const Mainpage = () => {
                         </Col>
                         <Col md={6} className='d-flex justify-content-center'>
 
-                            <Image className="img-fluid" width={650} height={500} src={main5} rounded />
+                            <Image className="img-fluid" width={650} height={500} src={main5} style={{ borderRadius: '20px' }} />
 
                         </Col>
                     </Row>
@@ -195,7 +195,7 @@ const Mainpage = () => {
                 <div className='main-section justify-content-center align-content-center py-4 my-5'>
                     <Row className="align-items-center">
                         <Col md={6} className='d-flex justify-content-center'>
-                            <Image className="img-fluid" width={650} height={500} src={main6} rounded />
+                            <Image className="img-fluid" width={650} height={500} src={main6} style={{ borderRadius: '20px' }} />
                         </Col>
                         <Col md={6} className='text-end text-md-end mx-auto'>
                             <Row className='text-end text-md-end m-auto fs-4' style={{ color: '#00a895' }}>

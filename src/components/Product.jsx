@@ -21,13 +21,13 @@ const Product = () => {
                         <Button className='p-2 px-3' style={{ backgroundColor: '#048578', color: 'white', border: '2px solid #048578' }} variant="success" size="lg">Learn more<ChevronRight className='p-1' color='#FFFFFF' size={35} /></Button>
                     </Col>
                     <Col md={6} className='d-flex justify-content-center'>
-                        <Image className="img-fluid" width={650} height={500} src={product1} rounded />
+                        <Image className="img-fluid" width={650} height={500} src={product1} style={{ borderRadius: '20px' }} />
                     </Col>
                 </Row>
 
                 <Row className="align-items-center m-5 p-2 py-5">
                     <Col md={6} className='d-flex justify-content-center'>
-                        <Image className="img-fluid" width={650} height={600} src={product2} rounded />
+                        <Image className="img-fluid" width={650} height={600} src={product2} style={{ borderRadius: '20px' }} />
                     </Col>
                     <Col md={6} className='text-end text-md-right'>
                         <Row><p className='display-5'>Refer Us And Earn <br></br> 20% Lifetime Commission.</p></Row>

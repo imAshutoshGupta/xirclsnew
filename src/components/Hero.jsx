@@ -36,7 +36,7 @@ const Hero = () => {
                         </Button>
                     </Col>
                     <Col md={6} className='d-flex justify-content-center mt-5'>
-                        <Image className="img-fluid" width={550} height={400} src={Hero1} rounded />
+                        <Image className="img-fluid" width={550} height={400} src={Hero1} style={{ borderRadius: '20px' }} />
                     </Col>
                 </Row>
                 <div className=''>
