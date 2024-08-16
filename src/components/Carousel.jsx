@@ -44,18 +44,17 @@ const CarouselComponent = () => {
 
   return (
     <Container>
-      <div className='justify-content-center align-content-center bg-primary p-5'>
+      <div className='justify-content-center align-content-center p-5'>
         <div className="d-flex align-items-center mt-5">
           <hr className="flex-grow-1 custom-hr" />
           <span className="mx-3 fs-4">WHAT OUR CLIENTS THINK ABOUT XIRCLS</span>
           <hr className="flex-grow-1 custom-hr" />
         </div>
 
-
-        <div className="carousel-container p-5 bg-info">
+        <div className="carousel-container p-5">
           <Slider {...settings}>
             {testimonials.map((testimonial) => (
-              <div key={testimonial.id} className="card bg-primary my-5">
+              <div key={testimonial.id} className="card my-5">
                 <div className="card-image-container p-3">
                   <img src={testimonial.image} alt="Review" className="card-image" />
                 </div>

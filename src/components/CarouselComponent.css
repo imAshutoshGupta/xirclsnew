@@ -1,9 +1,8 @@
-/* CarouselComponent.css */
 .carousel-container {
-  width: 1200px;
-  margin: 0;
-  padding: 10px;
-  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
 }
 
 .card {
@@ -37,10 +36,3 @@
   height: auto;
   overflow: visible; 
 }
-.slick-slide {
-  margin: 0 10px;
-  height: 300px;
-  display: flex;
-  align-items: center; 
-}
-
