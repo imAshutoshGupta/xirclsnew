@@ -1,12 +1,28 @@
-.dropdown-title {
-  color: #00a895; 
+.main-gradient {
+  background: rgb(145, 255, 246);
+  background: radial-gradient(circle, rgba(145, 255, 246, 1) 0%, rgba(255, 255, 255, 1) 66%);
 }
+
+.right-gradient {
+  background: rgb(145,255,246);
+  background: radial-gradient(circle at right center, rgba(145,255,246,1) 0%, rgba(255,255,255,1) 40%);
+}
+
+.left-gradient {
+  background: rgb(145,255,246);
+  background: radial-gradient(circle at left center, rgba(145,255,246,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.dropdown-title {
+  color: #00a895;
+}
+
 .navbar-nav .dropdown-toggle::after {
   display: none;
 }
 
 .custom-bg {
-  background-color: #00a895; 
+  background-color: #00a895;
   padding: 20px;
 }
 
@@ -27,11 +43,10 @@
   color: black;
 }
 
-
-
-.navlight{
+.navlight {
   color: dimgray;
 }
+
 .pin-bottom-row {
   margin-top: auto;
 }
