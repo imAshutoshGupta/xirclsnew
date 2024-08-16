@@ -16,6 +16,7 @@ import pvr from '../assets/pvr.png'
 import rebelfoods from '../assets/rebelfoods.png'
 import snitch from '../assets/snitch.png'
 import trueelements from '../assets/trueelements.png'
+import { ChevronRight } from 'react-feather';
 
 const Hero = () => {
     return (
@@ -27,13 +28,15 @@ const Hero = () => {
                             to Forever Loyal.</p></Row>
                         <Row><p className='fs-5'>An end-to-end martech stack to optimize every
                             step of the buyer journey.</p></Row>
-                        <Button className='p-2 px-3' style={{ backgroundColor: '#048578', color: 'white', border: '2px solid #048578' }} variant="success" size="lg">Get Started</Button>
-
+                        <Button className='p-2 px-3' style={{ backgroundColor: '#048578', color: 'white', border: '2px solid #048578' }} variant="success" size="lg">
+                            <span>
+                                Get Started
+                                <ChevronRight className='p-1' color='#FFFFFF' size={35} />
+                            </span>
+                        </Button>
                     </Col>
                     <Col md={6} className='d-flex justify-content-center mt-5'>
-
                         <Image className="img-fluid" width={550} height={400} src={Hero1} rounded />
-
                     </Col>
                 </Row>
                 <div className=''>

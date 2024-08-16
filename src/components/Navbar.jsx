@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../assets/logo.png'
 import Button from 'react-bootstrap/esm/Button';
+import { ChevronDown } from 'react-feather';
 
 const Navbarx = () => {
     return (
@@ -22,7 +23,7 @@ const Navbarx = () => {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto fs-5 px-5">
-                                <NavDropdown title={<span className="dropdown-title">Products</span>} id="basic-nav-dropdown" >
+                                <NavDropdown title={<span className="dropdown-title">Products<ChevronDown color="#00a895" size={28} /></span>} id="basic-nav-dropdown" >
                                     <NavDropdown.Item href="#action/3.1">Product 1</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#action/3.2">
@@ -35,7 +36,7 @@ const Navbarx = () => {
                                         Product 4
                                     </NavDropdown.Item>
                                 </NavDropdown>
-                                <NavDropdown title={<span className="dropdown-title">Company</span>} id="basic-nav-dropdown">
+                                <NavDropdown title={<span className="dropdown-title">Company<ChevronDown color="#00a895" size={28} /></span>} id="basic-nav-dropdown">
                                     <NavDropdown.Item href="#action/3.1">Company 1</NavDropdown.Item>
                                     <NavDropdown.Divider />
                                     <NavDropdown.Item href="#action/3.2">

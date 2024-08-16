@@ -10,6 +10,7 @@ import Image from 'react-bootstrap/esm/Image'
 import Col from 'react-bootstrap/esm/Col'
 import Row from 'react-bootstrap/esm/Row'
 import Button from 'react-bootstrap/esm/Button'
+import { ChevronRight } from 'react-feather'
 
 const Mainpage = () => {
     return (
@@ -244,7 +245,11 @@ const Mainpage = () => {
 
 
             <div className='d-flex justify-content-center align-content-center m-5 p-5'>
-                <Button className='p-3 px-5' style={{ backgroundColor: '#048578', color: 'white', border: '2px solid #048578' }} size="lg">Get Started</Button>
+                <Button className='p-2 px-3' style={{ backgroundColor: '#048578', color: 'white', border: '2px solid #048578' }} size="lg">
+                    <span>
+                        <p className='fs-4 m-0'>Get Started<ChevronRight className='' color='#FFFFFF' size={30} /></p>
+                    </span>
+                </Button>
             </div>
         </Container>
     )
